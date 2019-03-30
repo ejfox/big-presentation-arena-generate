@@ -8,6 +8,7 @@ Initialize your project with `big-presentation-init`
 In your project's folder, run `big-presentation-arena-generate --slug=CHANNELSLUG`
 
 ![Demo part 1][https://i.imgur.com/zkfXSwG.gif]
+
 ![Demo part 2][https://i.imgur.com/nILaatI.gif]
 
 #### Finding your channel slug
