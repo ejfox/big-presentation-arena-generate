@@ -7,15 +7,9 @@ This assumes you have [already installed big](https://github.com/tmcw/big/blob/g
 Initialize your project with `big-presentation-init`
 In your project's folder, run `big-presentation-arena-generate --slug=CHANNELSLUG`
 
-<<<<<<< HEAD
 ![Demo part 1](https://i.imgur.com/zkfXSwG.gif)
 
 ![Demo part 2](https://i.imgur.com/nILaatI.gif)
-=======
-![Demo part 1][https://i.imgur.com/zkfXSwG.gif]
-
-![Demo part 2][https://i.imgur.com/nILaatI.gif]
->>>>>>> 735472964b0efbbbc17ff3d68bfb46cb16ee351d
 
 #### Finding your channel slug
 The channel slug is the last part of the URL on the are.na website. For example the slug for <https://www.are.na/ej-fox/neo-internet-philosophy> is `neo-internet-philosophy`
