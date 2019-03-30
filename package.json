@@ -4,7 +4,7 @@
   "description": "A small tool to generate presentations from Are.na channels",
   "main": "cli.js",
   "bin": {
-    "big-presentation-arena-generate": "./bin/index.js"
+    "big-presentation-arena-generate": "./cli.js"
   },
   "repository": {
     "type": "git",
