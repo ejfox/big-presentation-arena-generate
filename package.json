@@ -1,6 +1,6 @@
 {
   "name": "big-presentation-arena-generate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small tool to generate presentations from Are.na channels",
   "main": "cli.js",
   "bin": {
