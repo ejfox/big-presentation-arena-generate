@@ -50,7 +50,7 @@ function writeHtmlFile (htmlString) {
 		if (err) {
 			console.log('There was an error...', err)
 		}
-		console.log('File written')
+		console.log('index.html written')
 		})
 }
 
