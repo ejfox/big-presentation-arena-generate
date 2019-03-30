@@ -1,10 +1,11 @@
+#! /usr/bin/env node
 const axios = require('axios')
-const _ = require('lodash')	
+const _ = require('lodash')
 const cheerio = require('cheerio')
 const fs = require('fs')
 const argv = require('minimist')(process.argv.slice(2))
 let channelSlug = ''
-if (argv.slug) { 
+if (argv.slug) {
 	channelSlug = argv.slug
 } else {
 	console.log('Pass the slug of the Are.na channel with --slug=YOUR-SLUG-HERE')
@@ -52,13 +53,13 @@ function writeHtmlFile (htmlString) {
 		console.log('File written')
 		})
 }
-						
-						
+
+
 function buildHtmlFromChannel (blocks) {
 	const $ = cheerio.load(templateString)
 	for(i=0; i<blocks.length; i++) {
 		let d = blocks[i]
-		let postContent = (d.content !== "") ? d.content : d.description 
+		let postContent = (d.content !== "") ? d.content : d.description
 		let postHtml = "<div></div>"
 		let post = $(postHtml)
 		post.text(postContent)
@@ -66,10 +67,9 @@ function buildHtmlFromChannel (blocks) {
 		if (d.image) {
 				if (!d.image.large) return false
 				post.attr('data-background-image', d.image.large.url)
-		}		
+		}
 		$('body').append(post)
 	}
 	console.log($.html())
 	writeHtmlFile($.html())
 }
-
