@@ -15,3 +15,10 @@ The channel slug is the last part of the URL on the are.na website. For example 
 ## To-do
 + Add --image-only flag to skip text only posts
 + Add generated final slide with link to are.na channel
+
+# Made by EJ Fox 🌞
+#### Mar 30, 2019
+
+ejfox@ejfox.com // Questions, comments, collaboration welcome
+
+Support for my work is appreciated! https://ejfox.com/donate/
