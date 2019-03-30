@@ -2,11 +2,16 @@
   "name": "big-presentation-arena-generate",
   "version": "1.0.0",
   "description": "A small tool to generate presentations from Are.na channels",
-  "main": "index.js",
+  "main": "cli.js",
+  "bin": {
+    "big-presentation-arena-generate": "./bin/index.js"
+  },
   "scripts": {
+    "release": "release-it",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "big",
     "slideshow",
     "presentation"
   ],
