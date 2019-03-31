@@ -1,6 +1,9 @@
 # big-presentation-arena-generate
 A set of code glue to easily generate [big](https://github.com/tmcw/big/blob/gh-pages/docs/user-guide.md) presentations from <are.na> channels
 
+# Install
+`npm install -g big-presentation-arena-generate`
+
 # Usage
 This assumes you have [already installed big](https://github.com/tmcw/big/blob/gh-pages/docs/user-guide.md) via `npm install -g big-presentation`
 
