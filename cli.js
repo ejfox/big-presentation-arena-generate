@@ -13,28 +13,28 @@ if (argv.slug) {
 }
 const templateString = `
 <!DOCTYPE html>
-				<html>
-				<head>
-				  <meta charset='utf-8'>
-				  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
-				  <title>Big</title>
-				  <link href='big.css' rel='stylesheet' type='text/css' />
-				  <link href='highlight.css' rel='stylesheet' type='text/css' />
-				  <style>
-				    .new-shiny { background: #aaaaaa; }
-				    .slide-container {
-					    background-size: contain;
-					    background-position: center center;
-					    background-repeat: no-repeat;
-  </style>
-				  <script src='big.js'></script>
-				  <script src='highlight.js'></script>
-				  <script>hljs.initHighlightingOnLoad();</script>
-				</head>
-				<body class='light'>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+  <title>Big</title>
+  <link href='big.css' rel='stylesheet' type='text/css' />
+  <link href='highlight.css' rel='stylesheet' type='text/css' />
+  <style>
+    .new-shiny { background: #aaaaaa; }
+    .slide-container {
+	    background-size: contain;
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	</style>
+  <script src='big.js'></script>
+  <script src='highlight.js'></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body class='light'>
 
-				</body>
-				</html>
+</body>
+</html>
 `
 
 blocks = []
